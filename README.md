@@ -1,5 +1,5 @@
 # Goppo Soppo 
-[This File is AI Generated, It may conatin errors]
+[⚠️This File is AI Generated, It may conatin errors]
 
 ## Project Aim
 **Goppo Soppo** is a full-stack, theme-based web application designed to serve as a specialized audio streaming platform. The primary objective is to provide users with an immersive experience for discovering, organizing, and listening to audio content—specifically focusing on detective, mystery, and thriller stories. 

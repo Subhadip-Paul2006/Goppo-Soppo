@@ -2,7 +2,7 @@
 
 Goppo Soppo is a full-stack storytelling web application where users can discover, listen to, and manage audio and text-based stories. The platform features robust management tools for content creators and an intuitive, immersive browsing experience for listeners.
 
--------
+---
 
 ## 1. Prerequisites
 

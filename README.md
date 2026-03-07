@@ -91,11 +91,15 @@ Through this project, I practiced:
 
 ## 🔧 How to Run the Project
 
-Navigate to the project folder:
+- Clone the repository:
+```bash
+git clone https://github.com/yourusername/Goppo-Soppo.git
+```
+- Navigate to the project folder:
 ```bash
 cd Goppo-Soppo
 ```
-Install dependencies:
+- Install dependencies:
 ```bash
 npm install
 ```

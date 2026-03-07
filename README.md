@@ -1,122 +1,134 @@
 # 🎧 Goppo Soppo
 
-⚠️ This project is AI-assisted and currently under development.
+A modern **full-stack audio storytelling web application** designed to provide an immersive listening experience for mystery, thriller, and detective stories.
 
-## 📖 Project Overview
-**Goppo Soppo** is a theme-based audio storytelling web application designed to provide an immersive platform for listening to mystery, thriller, and detective stories.
+The platform allows users to **discover, play, like, and manage audio stories** through a clean and interactive interface. The application also stores user interactions locally to maintain preferences such as liked stories.
 
-The goal of this project is to create a clean and engaging interface where users can easily discover and stream curated audio stories. The platform focuses on delivering a smooth listening experience with well-organized content and an intuitive UI.
-
-This project is part of my learning journey as a **2nd year Computer Science student**, where I am exploring modern frontend technologies and web application architecture.
+This project was built as part of my learning journey as a **2nd Year B.Tech Computer Science student**, focusing on full-stack web development and modern frontend technologies.
 
 ---
 
-## 🎯 Project Aim
-The main objectives of this project are:
+# 📌 Project Objective
 
-- Build a modern **frontend web application**
-- Design a **premium and immersive UI/UX**
-- Organize audio content in a structured way
-- Provide a **smooth audio listening experience**
-- Practice **component-based frontend development**
+The goal of **Goppo Soppo** is to build a platform where users can easily explore and listen to curated audio stories while maintaining a smooth and engaging user experience.
 
----
+The project focuses on:
 
-## 🛠️ Technologies Used
-
-### Frontend
-- **React.js**  
-  Used for building reusable UI components and managing the dynamic interface.
-
-- **Vite**  
-  A fast build tool used to run and bundle the frontend application efficiently.
-
-- **Tailwind CSS**  
-  Utility-first CSS framework used for creating responsive and modern UI designs.
-
-- **TypeScript**  
-  Adds type safety and improves code maintainability.
-
-- **GSAP (GreenSock Animation Platform)**  
-  Used to create smooth animations and transitions.
-
-- **Three.js**  
-  Used to add interactive 3D visual elements for a more immersive UI.
+- Building a **full-stack web application**
+- Designing a **modern and responsive UI**
+- Implementing **audio streaming functionality**
+- Managing user interactions such as **likes and preferences**
+- Practicing **frontend architecture and state management**
 
 ---
 
-### Backend (Planned)
-- **Node.js**  
-  Intended to handle server-side operations and API logic in future development stages.
+# 🚀 Features
+
+### 🎧 Audio Story Player
+- Play audio stories directly in the browser
+- Pause / Resume playback
+- Seek through audio timeline
+
+### ⚡ Playback Speed Control
+- Users can increase or decrease audio playback speed
+
+### ❤️ Like Stories
+- Users can mark stories as **liked**
+- Liked stories are saved using **Local Storage**
+
+### 👨‍💻 Author Information
+- Each story contains **author details**
+- Users can view information about the creator
+
+### 💾 Local Storage Support
+- Stores liked stories locally
+- Maintains user preferences without requiring a database
+
+### 🎨 Modern UI
+- Responsive design
+- Smooth animations
+- Clean storytelling interface
 
 ---
 
-## 📂 Project Structure
+# 🛠️ Tech Stack
+
+## Frontend
+
+**React.js**  
+Component-based frontend library used to build dynamic user interfaces.
+
+**Vite**  
+Fast build tool used for development and optimized production builds.
+
+**Tailwind CSS**  
+Utility-first CSS framework used to create responsive layouts quickly.
+
+**TypeScript**  
+Provides type safety and improves maintainability of the codebase.
+
+**GSAP**  
+Used for smooth animations and interactive UI effects.
+
+**Three.js**  
+Adds interactive 3D visual elements to enhance the user experience.
+
+---
+
+## Backend
+
+**Node.js**
+
+Used to handle server-side logic and manage application structure.
+
+*(Currently the project stores user interactions in Local Storage instead of a database.)*
+
+---
+
+# 📂 Project Structure
 ```bash
 Goppo-Soppo
 │
 ├── client/ # Frontend application
 │
-├── src/ # Source code
+├── src/
 │ ├── components/ # Reusable UI components
-│ ├── pages/ # Page layouts
-│ ├── assets/ # Images, audio, and other resources
+│ ├── pages/ # Application pages
+│ ├── assets/ # Images and audio files
+│ ├── utils/ # Helper functions
 │
-├── .gitignore # Files ignored by Git
-├── package.json # Project dependencies
+├── package.json # Dependencies and scripts
+├── .gitignore # Ignored files
 ├── README.md # Project documentation
 ├── INSTRUCTIONS.md # Setup instructions
 ```
 ---
 
-## 🚀 Features
-- 🎧 Audio story streaming interface
-- 🧩 Modular React component structure
-- 🎨 Premium UI design
-- ⚡ Fast development using Vite
-- 🌌 Interactive animations and visuals
+# ⚙️ Installation & Setup
 
----
+Clone the repository
 
-## 🧠 What I Learned
-Through this project, I practiced:
-
-- React component architecture
-- Modern frontend tooling (Vite)
-- UI/UX design thinking
-- Animation integration using GSAP
-- Managing project structure in a scalable way
-
----
-
-## 🔧 How to Run the Project
-
-- Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Goppo-Soppo.git
+git clone https://github.com/Subhadip-Paul2006/Goppo-Soppo.git
 ```
-- Navigate to the project folder:
+---
+
+## Go to the project directory
 ```bash
 cd Goppo-Soppo
 ```
-- Install dependencies:
+
+## Install dependencies
 ```bash
 npm install
 ```
-- Run the development server:
+
+## Run the development server
 ```bash
 npm run dev
 ```
----
 
-## 🌱 Future Improvements
-
-- User authentication
-- Audio upload system
-- Personalized playlists
-- Backend API integration
-- Database support for content management
-
-## 👨‍💻 With Love From
-
-Subh
+## Open in browser
+```bash
+http://localhost:5173
+```

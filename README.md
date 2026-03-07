@@ -108,3 +108,15 @@ npm install
 npm run dev
 ```
 ---
+
+## 🌱 Future Improvements
+
+- User authentication
+- Audio upload system
+- Personalized playlists
+- Backend API integration
+- Database support for content management
+
+## 👨‍💻 With Love From
+
+Subh

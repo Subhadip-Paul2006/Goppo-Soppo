@@ -52,3 +52,55 @@ The main objectives of this project are:
 ---
 
 ## 📂 Project Structure
+```bash
+Goppo-Soppo
+│
+├── client/ # Frontend application
+│
+├── src/ # Source code
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page layouts
+│ ├── assets/ # Images, audio, and other resources
+│
+├── .gitignore # Files ignored by Git
+├── package.json # Project dependencies
+├── README.md # Project documentation
+├── INSTRUCTIONS.md # Setup instructions
+```
+---
+
+## 🚀 Features
+- 🎧 Audio story streaming interface
+- 🧩 Modular React component structure
+- 🎨 Premium UI design
+- ⚡ Fast development using Vite
+- 🌌 Interactive animations and visuals
+
+---
+
+## 🧠 What I Learned
+Through this project, I practiced:
+
+- React component architecture
+- Modern frontend tooling (Vite)
+- UI/UX design thinking
+- Animation integration using GSAP
+- Managing project structure in a scalable way
+
+---
+
+## 🔧 How to Run the Project
+
+Navigate to the project folder:
+```bash
+cd Goppo-Soppo
+```
+Install dependencies:
+```bash
+npm install
+```
+Run the development server:
+```bash
+npm run dev
+```
+---

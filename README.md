@@ -142,6 +142,7 @@ http://localhost:5173
 - Handling audio playback in web applications
 - Using Local Storage for persistent user data
 - Creating interactive UI animations
+---
 
 # 🔮 Future Improvements
 
@@ -150,8 +151,9 @@ http://localhost:5173
 - Personalized playlists
 - Audio recommendation system
 - Admin dashboard for uploading stories
+---
 
 # 👨‍💻 With Love From
-Subh
+Subh<br>
 ⭐ If you found this project interesting, feel free to star the repository!
 

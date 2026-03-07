@@ -153,5 +153,5 @@ http://localhost:5173
 
 # 👨‍💻 With Love From
 Subh
-
+⭐ If you found this project interesting, feel free to star the repository!
 
